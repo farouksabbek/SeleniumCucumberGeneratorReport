@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="runners.TestRunner" time="77.284" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\FaroukSABBEK\OneDrive - Mobelite\Bureau\to merge again\SeleniumCucumberGeneratorReporter"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\FaroukSABBEK\OneDrive - Mobelite\Bureau\to merge again\SeleniumCucumberGeneratorReporter"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\FAROUK~2\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\FaroukSABBEK\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17.0.5\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\FaroukSABBEK\AppData\Local\Android\Sdk\platform-tools;C:\Users\FaroukSABBEK\AppData\Local\Android\Sdk\tools;C:\Users\FaroukSABBEK\AppData\Local\Android\Sdk\tools\bin;C:\Users\FaroukSABBEK\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\FaroukSABBEK\AppData\Local\Microsoft\WindowsApps;C:\Users\FaroukSABBEK\AppData\Roaming\npm;C:\Users\FaroukSABBEK\AppData\Local\Programs\Git\cmd;."/>
+    <property name="maven.conf" value="C:\Users\FaroukSABBEK\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\FaroukSABBEK\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\FaroukSABBEK"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="FaroukSABBEK"/>
+    <property name="java.class.path" value="C:\Users\FaroukSABBEK\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="maven.home" value="C:\Users\FaroukSABBEK\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="test login" name="test simple #1" time="35.464"/>
+  <testcase classname="test login" name="test simple #2" time="27.646"/>
+  <testcase classname="test login" name=" #1" time="7.55">
+    <error message="element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Recherche Google&quot; aria-label=&quot;Recherche Google&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwj6ne2JtdP8AhWAU6QEHVyaAcIQ4dUDCA0&quot;&gt; is not clickable at point (693, 327). Other element would receive the click: &lt;b&gt;...&lt;/b&gt;
+  (Session info: chrome=108.0.5359.126)
+Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac8adf8579892aca763760786b530c6d, clickElement {id=06c834f7-cab4-4f0f-9e24-7dd4c9f34906}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\FAROUK~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ac8adf8579892aca763760786b530c6d)] -&gt; xpath: (//*[@value=&apos;Recherche Google&apos;  and @name=&apos;btnK&apos;])[2]]
+Session ID: ac8adf8579892aca763760786b530c6d" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Recherche Google&quot; aria-label=&quot;Recherche Google&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwj6ne2JtdP8AhWAU6QEHVyaAcIQ4dUDCA0&quot;&gt; is not clickable at point (693, 327). Other element would receive the click: &lt;b&gt;...&lt;/b&gt;
+  (Session info: chrome=108.0.5359.126)
+Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac8adf8579892aca763760786b530c6d, clickElement {id=06c834f7-cab4-4f0f-9e24-7dd4c9f34906}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\FAROUK~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ac8adf8579892aca763760786b530c6d)] -&gt; xpath: (//*[@value=&apos;Recherche Google&apos;  and @name=&apos;btnK&apos;])[2]]
+Session ID: ac8adf8579892aca763760786b530c6d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at stepDefinition.LoginSteps.clicKSearch(LoginSteps.java:29)
+	at ✽.I click on search(file:///C:/Users/FaroukSABBEK/OneDrive%20-%20Mobelite/Bureau/to%20merge%20again/SeleniumCucumberGeneratorReporter/src/test/java/features/login.feature:18)
+</error>
+    <system-out>
+@Google
+Scenario Outline:                      # src/test/java/features/login.feature:23
+  Given I open the site                # stepDefinition.LoginSteps.iOpenTheSite()
+  When I add text  &quot;aaaa&quot; and &quot;_bbbbb&quot; # stepDefinition.LoginSteps.iAddTextAnd(java.lang.String,java.lang.String)
+  And I click on search                # stepDefinition.LoginSteps.clicKSearch()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Recherche Google&quot; aria-label=&quot;Recherche Google&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwj6ne2JtdP8AhWAU6QEHVyaAcIQ4dUDCA0&quot;&gt; is not clickable at point (693, 327). Other element would receive the click: &lt;b&gt;...&lt;/b&gt;
+  (Session info: chrome=108.0.5359.126)
+Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac8adf8579892aca763760786b530c6d, clickElement {id=06c834f7-cab4-4f0f-9e24-7dd4c9f34906}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\FAROUK~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ac8adf8579892aca763760786b530c6d)] -&gt; xpath: (//*[@value=&apos;Recherche Google&apos;  and @name=&apos;btnK&apos;])[2]]
+Session ID: ac8adf8579892aca763760786b530c6d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at stepDefinition.LoginSteps.clicKSearch(LoginSteps.java:29)
+	at âœ½.I click on search(file:///C:/Users/FaroukSABBEK/OneDrive%20-%20Mobelite/Bureau/to%20merge%20again/SeleniumCucumberGeneratorReporter/src/test/java/features/login.feature:18)
+
+</system-out>
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 25625
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="test login" name=" #2" time="6.624">
+    <error message="element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Recherche Google&quot; aria-label=&quot;Recherche Google&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwjujsWNtdP8AhVOa6QEHakUDY0Q4dUDCA0&quot;&gt; is not clickable at point (693, 327). Other element would receive the click: &lt;center&gt;...&lt;/center&gt;
+  (Session info: chrome=108.0.5359.126)
+Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b45bc197874c0863297e98cbc171d1c, clickElement {id=89e5b728-b01d-40d7-a06e-58afcad6c3da}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\FAROUK~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50609/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8b45bc197874c0863297e98cbc171d1c)] -&gt; xpath: (//*[@value=&apos;Recherche Google&apos;  and @name=&apos;btnK&apos;])[2]]
+Session ID: 8b45bc197874c0863297e98cbc171d1c" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Recherche Google&quot; aria-label=&quot;Recherche Google&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwjujsWNtdP8AhVOa6QEHakUDY0Q4dUDCA0&quot;&gt; is not clickable at point (693, 327). Other element would receive the click: &lt;center&gt;...&lt;/center&gt;
+  (Session info: chrome=108.0.5359.126)
+Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b45bc197874c0863297e98cbc171d1c, clickElement {id=89e5b728-b01d-40d7-a06e-58afcad6c3da}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\FAROUK~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50609/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8b45bc197874c0863297e98cbc171d1c)] -&gt; xpath: (//*[@value=&apos;Recherche Google&apos;  and @name=&apos;btnK&apos;])[2]]
+Session ID: 8b45bc197874c0863297e98cbc171d1c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at stepDefinition.LoginSteps.clicKSearch(LoginSteps.java:29)
+	at ✽.I click on search(file:///C:/Users/FaroukSABBEK/OneDrive%20-%20Mobelite/Bureau/to%20merge%20again/SeleniumCucumberGeneratorReporter/src/test/java/features/login.feature:18)
+</error>
+    <system-out>
+@Google
+Scenario Outline:                       # src/test/java/features/login.feature:24
+  Given I open the site                 # stepDefinition.LoginSteps.iOpenTheSite()
+  When I add text  &quot;ccccc&quot; and &quot;_ddddd&quot; # stepDefinition.LoginSteps.iAddTextAnd(java.lang.String,java.lang.String)
+  And I click on search                 # stepDefinition.LoginSteps.clicKSearch()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Recherche Google&quot; aria-label=&quot;Recherche Google&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwjujsWNtdP8AhVOa6QEHakUDY0Q4dUDCA0&quot;&gt; is not clickable at point (693, 327). Other element would receive the click: &lt;center&gt;...&lt;/center&gt;
+  (Session info: chrome=108.0.5359.126)
+Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b45bc197874c0863297e98cbc171d1c, clickElement {id=89e5b728-b01d-40d7-a06e-58afcad6c3da}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\FAROUK~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50609/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8b45bc197874c0863297e98cbc171d1c)] -&gt; xpath: (//*[@value=&apos;Recherche Google&apos;  and @name=&apos;btnK&apos;])[2]]
+Session ID: 8b45bc197874c0863297e98cbc171d1c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at stepDefinition.LoginSteps.clicKSearch(LoginSteps.java:29)
+	at âœ½.I click on search(file:///C:/Users/FaroukSABBEK/OneDrive%20-%20Mobelite/Bureau/to%20merge%20again/SeleniumCucumberGeneratorReporter/src/test/java/features/login.feature:18)
+
+</system-out>
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 31764
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+</testsuite>
